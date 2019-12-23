@@ -5,14 +5,15 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
+//安装
+npm i test-plug -D
+//按需引入
+import {Star, Question} from 'test-plugs';
+Vue.use(Star);
+Vue.use(Question);
+// 全部引入
+import JulivePlugs from 'test-plugs';
+Vue.use(JulivePlugs);
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
