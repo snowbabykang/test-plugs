@@ -6,6 +6,14 @@
 -->
 <template>
     <div class="quetion-con">
+        <el-row>
+            <el-button>默认按钮</el-button>
+            <el-button type="primary">主要按钮</el-button>
+            <el-button type="success">成功按钮</el-button>
+            <el-button type="info">信息按钮</el-button>
+            <el-button type="warning">警告按钮</el-button>
+            <el-button type="danger">危险按钮</el-button>
+        </el-row>
         <div class="question-title">{{title}}</div>
         <div
             class="question-des"
@@ -19,12 +27,12 @@
                 >
                     <img
                         v-if="icon === 'smile'"
-                        src="./images/icon-cryEmoji.png"
+                        src="../images/icon-cryEmoji.png"
                         alt="哭脸"
                     >
                     <img
                         v-else
-                        src="./images/icon-errorEmoji.png"
+                        src="../images/icon-errorEmoji.png"
                         alt="错误图标"
                     >
                     {{leftAnswer}}</div>
@@ -36,12 +44,12 @@
                 >
                     <img
                         v-if="icon === 'smile'"
-                        src="./images/icon-smileEmoji.png"
+                        src="../images/icon-smileEmoji.png"
                         alt="笑脸"
                     >
                     <img
                         v-else
-                        src="./images/icon-rightEmoji.png"
+                        src="../images/icon-rightEmoji.png"
                         alt="正确图标"
                     >
                     {{rightAnswer}}</div>
