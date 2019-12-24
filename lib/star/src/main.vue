@@ -138,7 +138,7 @@
             }
         },
         created() {
-            console.log('star组件---created');
+            console.log('star组件---created ');
         },
         mounted() {
             var _this = this;
