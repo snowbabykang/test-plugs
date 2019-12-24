@@ -1,5 +1,10 @@
 <template>
     <div class="star-con">
+        <el-switch
+            active-color="#13ce66"
+            inactive-color="#ff4949"
+        >
+        </el-switch>
         <ul class="star-list">
             <li
                 v-for="item in 5"
