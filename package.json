@@ -1,7 +1,7 @@
 {
   "name": "test-plugs",
   "description": "居理新房组件库不打包版测试",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "author": "kangx <1287275626@qq.com>",
   "license": "MIT",
   "private": false,
