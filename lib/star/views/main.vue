@@ -160,7 +160,7 @@
     };
 </script>
 
-<style scoped lang="less">
+<style scoped>
 .star-con {
     text-align: center;
 }
@@ -181,25 +181,23 @@
     height: 34px;
     margin: 0;
     padding: 0;
-    li {
-        display: inline-block;
-        color: #e7ecf7;
-        margin: 0 10px;
-        line-height: 1;
-        height: 100%;
-    }
-    li.active {
-        svg path {
-            fill: #ffbc37;
-        }
-    }
-    .base-star {
-        position: relative;
-        .half-star {
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-    }
+}
+.star-list li {
+    display: inline-block;
+    color: #e7ecf7;
+    margin: 0 10px;
+    line-height: 1;
+    height: 100%;
+}
+.star-list li.active svg path {
+    fill: #ffbc37;
+}
+.star-list .base-star {
+    position: relative;
+}
+.star-list .base-star .half-star {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 </style>

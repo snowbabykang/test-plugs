@@ -44,6 +44,7 @@
              * @return:
              */
             change(val, star) {
+                console.log(val + '---' + star);
                 this.rateValue = val;
                 this.rate = star;
             },

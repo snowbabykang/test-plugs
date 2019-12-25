@@ -1,6 +1,5 @@
 var path = require('path')
 var webpack = require('webpack')
-// const HtmlWebpackPlugin = require('html-webpack-plugin');
 const NODE_ENV = process.env.NODE_ENV;
 
 module.exports = {
@@ -65,15 +64,7 @@ module.exports = {
   },
   performance: {
     hints: false
-  },
-  // plugins: [
-  //   new HtmlWebpackPlugin({
-  //     filename: 'index.html',
-  //     template: 'index.html',
-  //     inject: true
-  //   }),
-  // ],
-  // devtool: '#eval-source-map'
+  }
 }
 
 if (process.env.NODE_ENV === 'production') {
